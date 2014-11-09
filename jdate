@@ -1,6 +1,12 @@
 #!/usr/bin/python
 
+import sys
 import jdatetime
 
+time_format = "%a %b %d %H:%M:%S %Z %Y"
+for arg in sys.argv:
+    if arg[0] == "+":
+        time_format = arg[1:]
+
 jdate = jdatetime.datetime.today()
-print (jdate.strftime("%a %b %d %H:%M:%S %Z %Y"))
+print (jdate.strftime(time_format))

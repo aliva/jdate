@@ -25,7 +25,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 classifiers=[
     "Programming Language :: Python :: 2.7",
@@ -41,4 +41,7 @@ setup(
     url="https://github.com/aliva/jdate",
     scripts=["jdate",],
     license="BSD 3-Clause",
+    install_requires=(
+        "jdatetime"
+    )
 )

@@ -27,10 +27,15 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 from distutils.core import setup
 
+classifiers=[
+    "Programming Language :: Python :: 2.7",
+]
+
 setup(
     name="jdate",
     version="0.0.1",
     description="simple jalali date command (works like date)",
+    classifiers=classifiers,
     author="Ali Vakilzade",
     author_email="ali@vakilzade.ir",
     url="https://github.com/aliva/jdate",

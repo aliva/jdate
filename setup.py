@@ -32,7 +32,7 @@ classifiers=[
 
 setup(
     name="jdate",
-    version="0.0.1",
+    version="0.0.2",
     description="simple jalali date command (works like date)",
     classifiers=classifiers,
     author="Ali Vakilzade",

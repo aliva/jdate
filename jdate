@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 # Copyright (c) 2014, Ali Vakilzade <ali@vakilzade.ir>
 # All rights reserved.
 #
@@ -25,12 +26,12 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import sys
-import jdatetime
+import khayyam
 
 time_format = "%a %b %d %H:%M:%S %Z %Y"
 for arg in sys.argv:
     if arg[0] == "+":
         time_format = arg[1:]
 
-jdate = jdatetime.datetime.today()
+jdate = khayyam.JalaliDatetime.now()
 print (jdate.strftime(time_format))

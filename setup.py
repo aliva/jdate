@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Copyright (c) 2014, Ali Vakilzade <ali@vakilzade.ir>
 # All rights reserved.
 #
@@ -40,6 +41,6 @@ setup(
     scripts=["jdate",],
     license="BSD 3-Clause",
     install_requires=(
-        "jdatetime"
+        "khayyam",
     )
 )

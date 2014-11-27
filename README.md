@@ -4,8 +4,6 @@ a simple python script to have `date` command for jalali dates in command line
 
 ## install
 
-works with python 2
-
 ```
 pip install jdate
 ```

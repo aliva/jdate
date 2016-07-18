@@ -34,4 +34,8 @@ for arg in sys.argv:
         time_format = arg[1:]
 
 jdate = khayyam.JalaliDatetime.now()
-print (jdate.strftime(time_format))
+
+if sys.version_info.major == 2:
+    print(jdate.strftime(time_format).encode("utf-8"))
+else:
+    print(jdate.strftime(time_format))

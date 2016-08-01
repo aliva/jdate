@@ -1,5 +1,8 @@
 # jdate
 
+[![PyPI](https://img.shields.io/pypi/v/jdate.svg)]()
+[![PyPI](https://img.shields.io/pypi/dm/jdate.svg)]()
+
 a simple python script to have `date` command for jalali dates in command line
 
 ## install
